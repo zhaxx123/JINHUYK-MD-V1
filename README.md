@@ -37,6 +37,13 @@
  **Lien de Déploiement**
 <a href='https://panel.huguitisnodes.host/server/623d1dcf/' target="_blank"><img alt='Deploy on HuguitisNodes' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=panel&logoColor=white'/></a>
 
+**Étape 1 : Créer un Compte sur KataBump**
+
+   - Va sur [KataBump](https://katabump.com/fr) et crée un compte si tu n'en as pas déjà un.
+
+**LIEN VERS LE DÉPLOIEMENT**
+<a href='https://control.katabump.com/server/db762baa/files' target="_blank"><img alt='Deploy on KataBump' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=panel&logoColor=white'/></a>
+
 **DEPLOY ON HEROKU**
 
 •If you don't have an account in Heroku, create one.
