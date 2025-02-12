@@ -47,26 +47,6 @@
     <br>
     <a href='https://dashboard.heroku.com/new?template=https://github.com/ChanJinhuyk/JINHUYK-MD-V1' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-**DEPLOY ON RENDER**
-
-•If you don't have an account in RENDER, create one and deploy.
-    <br>
-    <a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
-
-**env for render**
-
-_key_
-
-```
-DATABASE_URL
-```
-_value_
-
-```
-postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.oregon-postgres.render.com/takudzwa
-```
-* [⭐️How to deploy on render⭐️](https://youtu.be/FiRpFMZZrMU?si=tyLUSRBqLt4wyfK-)
-
 
 **DEPLOY ON REPLIT**
 
@@ -80,6 +60,19 @@ postgresql://tkm:Aqi6tqwyv5IwDHncTtVi5XtMGZvfndDJ@dpg-cqahogtds78s739sl81g-a.ore
 
 _Termux Setup not recommended_
 
+
+
+## URGENT ANNOUNCEMENT
+
+*Français*
+⚠️ *Important : Il est tristement interdit de déployer JINHUYK-MD via le workflow pour éviter tout risque de spam ou de bannissement du dépôt.*
+
+*English*
+⚠️ *Important: It is strictly forbidden to deploy JINHUYK-MD via the workflow to avoid any risk of spam or repository banning.*
+
+
+[Sasaki  whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41)
+
 **DEVELOPERS**
 
 <table>
@@ -90,57 +83,3 @@ _Termux Setup not recommended_
     <td><a href="https://github.com/ChanJinhuyk"><img src="https://i.imgur.com/1YWlaIx.jpeg" width="150"</td>
   </tr>
 </table>
-
-**Deployer via github lui même `.github/workflows/deploye.yml`
-
-```bash
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '0 */6 * * *'  # Relance toutes les 6 heures
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Install FFmpeg
-      run: sudo apt-get install -y ffmpeg
-
-    - name: Start application with timeout
-      run: |
-        timeout 21590s npm start  # Limite l'exécution à 5h 59m 50s
-
-    - name: Save state (Optional)
-      run: |
-        ./save_state.sh
-```
-
-**contributors**
-
-[Sasaki  whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41)
-
-
