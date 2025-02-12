@@ -75,8 +75,7 @@ _Termux Setup not recommended_
 
 <table>
   <tr>
-    <td>•𝙇𝙤𝙧𝙙 𝐉𝚰𝚴𝚮𝐘𝐔𝐊•</td>
-    <td>Ashaf barry sasaki</td>
+    <td>•EMMANUEL SASAKI•</td>
   </tr>
   <tr>
     <td><a href="https://github.com/ChanJinhuyk"><img src="https://i.imgur.com/1YWlaIx.jpeg" width="150"</td>
