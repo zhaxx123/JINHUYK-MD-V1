@@ -2,7 +2,7 @@ const bot = require(__dirname + '/lib/amd')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
-    Debug.info(`Starting JINHUYK-MD-V1 ${VERSION}`)
+    Debug.info(`Starting JINHUYK ${VERSION}`)
   try {
     await bot.init()
     //bot.logger.info('⏳ Database syncing!')

@@ -40,7 +40,7 @@ volumes: []
 skip_cache: false
 
 git:
-  repository: https://github.com/ChanJinhuyk/JINHUYK-MD-V1
+  repository: https://github.com/KangJinhuyk/JINHUYK-MD
   branch: main
   sha: aea4483e729d011f0c2671cb8ed51f61986eb203
   no_deploy_on_push: false

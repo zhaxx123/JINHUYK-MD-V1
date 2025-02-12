@@ -1,15 +1,15 @@
 {
     "name": "Jinhuyk MD",
     "description": "Simple WhatsApp Bot🤖 For the Taka",
-    "logo": "https://i.postimg.cc/sx2KY0mS/JINHUYK-MD-V1.jpg",
-    "keywords": ["Chan jinhuyk", "jinhuyk", "JINHUYK-MD-V1"],
+    "logo": "https://endpoint.web.id/server/file/I8dkDXm1nJDtOI75.jpg",
+    "keywords": ["Kang jinhuyk", "jinhuyk", "JINHUYK-MD"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Chan jinhuyk",
+        "value": "Kang jinhuyk",
         "required": true
       },
   
@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://i.postimg.cc/sx2KY0mS/JINHUYK-MD-V1.jpg",
+        "value": "https://endpoint.web.id/server/file/I8dkDXm1nJDtOI75.jpg",
         "required": false
       },
   
@@ -35,12 +35,12 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://i.postimg.cc/sx2KY0mS/JINHUYK-MD-V1.jpg"
+        "value": "https://telegra.ph/file/fa9dfa92fdbf649bc927d.jpg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "*JINHUYK-MD-V1*"
+        "value": "*ᵏᵍ┘𝙺𝙴𝚁𝙼_𝙼𝙳_𝚅𝟸𖤐*"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -103,7 +103,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "242067274660"
+        "value": "237656520674"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
@@ -115,12 +115,12 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "*JINHUYK-MD-V1*",
+        "value": "*ᵏᵍ┘TAKA_𝙼𝙳_𝚅𖤐*",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "Chanjinhuyk",
+        "value": "KgTech",
         "required": false
       }  
   },
