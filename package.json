@@ -1,14 +1,14 @@
 {
-   "name": "Jinhuyk-MD",
+   "name": "Jinhuyk-MD-V1",
    "version": "2.5.0",
    "description": "Multi device whatsapp bot by DeeCeeXxx.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
       "start": "node index.js",
-      "deploy": "git clone https://github.com/KangJinhuyk/JINHUYK-MD.git temp && mv temp/.git .git && rm -rf temp && npm install && npx puppeteer install"
+      "deploy": "git clone https://github.com/ChanJinhuyk/JINHUYK-MD-V1.git temp && mv temp/.git .git && rm -rf temp && npm install && npx puppeteer install"
    },
-   "author": "KANG JINHUYK",
+   "author": "CHAN JINHUYK",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -60,7 +60,6 @@
       "wa-sticker-formatter": "^4.3.2",
       "youtubei.js": "^7.0.0",
       "ytdl-core": "^4.11.5",
-      "ytdl-core": "github:franceking1/flash-dls"
    },
    "directories": {
       "lib": "lib",
@@ -71,10 +70,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/KangJinhuyk/JINHUYK-MD.git"
+      "url": "git+https://github.com/ChanJinhuyk/JINHUYK-MD-V1.git"
    },
    "bugs": {
-      "url": "https://github.com/KangJinhuyk/JINHUYK-MD/issues"
+      "url": "https://github.com/ChanJinhuyk/JINHUYK-MD-V1/issues"
    },
-   "homepage": "https://github.com/KangJinhuyk/JINHUYK-MD#readme"
+   "homepage": "https://github.com/ChanJinhuyk/JINHUYK-MD-V1#readme"
 }
