@@ -221,7 +221,7 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `*_Uptime of KERM_MD-v2: ${runtime(process.uptime())}_*`
+        `*_Uptime of JINHUYK-MD-V1: ${runtime(process.uptime())}_*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
@@ -367,60 +367,6 @@ const readDirectory = (directoryPath) => {
     fs.readdir(directoryPath, (err, files) => {
       if (err) {
         reject("Error reading directory");
-      } else {
-        resolve(files);
-      }
-    });
-  });
-};
-
-astro_patch.cmd(
-{
-  pattern: "trt2",
-  alias: ["translate"],
-  category: "user",
-  filename: __filename,
-  use: "<text> [language]",
-  desc: "Traduisez le texte donné vers la langue désirée.",
-  react: "🎙️",
-  async execute(message, query) {
-    try {
-      // Si une langue est spécifiée, elle est extraite ; sinon, c'est 'en' par défaut
-      let targetLanguage = query ? query.split(" ")[0].toLowerCase() : "en";
-
-      // Si l'utilisateur répond à un message, on utilise ce texte
-      let textToTranslate = message.reply_text || query?.replace(targetLanguage, "").trim();
-
-      if (!textToTranslate) {
-        return await message.reply(`*Veuillez fournir un texte à traduire. Exemple : ${prefix}trt en Qui êtes-vous ?*`);
-      }
-
-      // Effectuer la traduction
-      const translation = await translatte(textToTranslate, {
-        from: "auto",  // Détecte automatiquement la langue d'origine
-        to: targetLanguage,
-      });
-
-      // Si la traduction réussit, renvoyer le texte traduit
-      if (translation && translation.text) {
-        return await message.reply(translation.text);
-      } else {
-        return await message.reply("Désolé, la traduction a échoué.");
-      }
-    } catch (error) {
-      // Gestion des erreurs
-      console.error(error);  // Affiche l'erreur dans la console
-      await message.reply(`Une erreur est survenue pendant la traduction. Veuillez réessayer plus tard.\nErreur : ${error.message}`);
-    }
-  },
-};
-
-// Fonction pour lire un répertoire (si besoin d'une lecture de fichiers)
-const readDirectory = (directoryPath) => {
-  return new Promise((resolve, reject) => {
-    fs.readdir(directoryPath, (err, files) => {
-      if (err) {
-        reject("Erreur lors de la lecture du répertoire");
       } else {
         resolve(files);
       }
