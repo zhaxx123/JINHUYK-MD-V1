@@ -32,7 +32,7 @@
 **PANEL.HUGUITISNODES**
 *Créer un Compte sur HuguitisNodes*
 :
-   - vas sur  [HuguitisNodes](https://panel.huguitisnodes.host) et crée un compte si tu n'en as pas déjà un.
+   - vas sur  [HuguitisNodes](https://dash.huguitisnodes.host/register?ref=iflpl35U) et crée un compte si tu n'en as pas déjà un.
 
  **Lien de Déploiement**
 <a href='https://panel.huguitisnodes.host/server/623d1dcf/' target="_blank"><img alt='Deploy on HuguitisNodes' src='https://img.shields.io/badge/-DEPLOY-blue?style=for-the-badge&logo=panel&logoColor=white'/></a>
